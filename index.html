@@ -4,137 +4,226 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Android Developer Portfolio</title>
-
+    <title>Azahara — Desarrolladora Android</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    <nav>
+        <span class="nav-logo">azahara<span>.</span>dev</span>
+        <ul class="nav-links">
+            <li><a href="#stack">stack</a></li>
+            <li><a href="#proyectos">proyectos</a></li>
+            <li><a href="#trayectoria">sobre mí</a></li>
+            <li><a href="#contacto">contacto</a></li>
+        </ul>
+    </nav>
 
     <!-- HERO -->
     <header class="hero">
-        <div class="container">
-            <h1>Tu Nombre</h1>
-
-            <p class="subtitle">
-                Android Developer | Kotlin | Jetpack Compose
-            </p>
-
-            <p class="description">
-                Desarrollo aplicaciones Android enfocadas en rendimiento,
-                arquitectura limpia y buenas prácticas.
-            </p>
-
-            <div class="buttons">
-                <a href="#projects" class="btn">Ver proyectos</a>
-                <a href="mailto:tuemail@gmail.com" class="btn secondary">Contactar</a>
+        <section class="hero" id="inicio">
+            <p class="hero-eyebrow">Desarrolladora Android</p>
+            <h1>Hola, soy Azahara.<br>Construyo <em>apps Android</em><br>con Kotlin y Compose.</h1>
+            <p class="hero-sub">Desarrolladora con base en Java haciendo la transición al ecosistema Android. Me
+                interesa crear cosas que lleguen a usuarios reales — no herramientas que se quedan en un servidor
+                interno.</p>
+            <div class="hero-cta">
+                <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+                <a href="https://github.com/[tu-usuario]" class="btn btn-ghost" target="_blank">GitHub ↗</a>
+                <a href="https://linkedin.com/in/[tu-perfil]" class="btn btn-ghost" target="_blank">LinkedIn ↗</a>
             </div>
-        </div>
+        </section>
     </header>
 
     <main class="container">
 
-        <!-- SOBRE MÍ -->
-        <section class="section">
-            <h2>Sobre mí</h2>
-            <p>
-                Soy desarrollador Android enfocado en Kotlin y Jetpack Compose.
-                Me especializo en construir aplicaciones mantenibles usando MVVM,
-                Clean Architecture y consumo de APIs REST.
-            </p>
-        </section>
+        <hr class="divider">
 
-        <!-- TECNOLOGÍAS -->
-        <section class="section">
-            <h2>Tecnologías</h2>
+        <section id="stack">
+            <p class="section-label">Tecnologías</p>
+            <h2 class="section-title">Stack técnico</h2>
+            <div class="stack-groups">
+                <div>
+                    <div class="stack-chips">
+                        <span class="stack-chip">Kotlin</span>
+                        <span class="stack-chip">Java</span>
 
-            <div class="tags">
-                <span>Kotlin</span>
-                <span>Jetpack Compose</span>
-                <span>MVVM</span>
-                <span>Clean Architecture</span>
-                <span>Room</span>
-                <span>Retrofit</span>
-                <span>Hilt</span>
-                <span>Coroutines</span>
-                <span>Flow</span>
-                <span>Git</span>
+                        <span class="stack-chip">Jetpack Compose</span>
+                        <span class="stack-chip">Material Design 3</span>
+                        <span class="stack-chip">Navigation Component</span>
+                        <span class="stack-chip">Animaciones</span>
+                        <span class="stack-chip">Accesibilidad</span>
+
+                        <span class="stack-chip">MVVM</span>
+                        <span class="stack-chip">SOLID</span>
+                        <span class="stack-chip">Inyeccion de dependencias</span>
+
+                        <span class="stack-chip">Android Jetpack</span>
+                        <span class="stack-chip">Hilt</span>
+                        <span class="stack-chip">Coroutines</span>
+                        <span class="stack-chip">WorkManager</span>
+
+                        <span class="stack-chip">REST</span>
+                        <span class="stack-chip">Retrofit</span>
+                        <span class="stack-chip">Postman</span>
+
+                        <span class="stack-chip">Room</span>
+                        <span class="stack-chip">DataStore</span>
+                        <span class="stack-chip">SharedPreferences</span>
+                        < <span class="stack-chip">MockK</span>
+                            <span class="stack-chip">Compose UI Testing</span>
+                            <span class="stack-chip">Android Studio</span>
+                            <span class="stack-chip">Git</span>
+                            <span class="stack-chip">Figma</span>
+                            <span class="stack-chip">Jira</span>
+                            <span class="stack-chip">Scrum</span>
+                    </div>
+                </div>
+                <!-- <div>
+                    <p class="stack-group-title">DevOps y CI/CD</p>
+                    <div class="stack-chips">
+                        <span class="stack-chip">GitHub Actions</span>
+                        <span class="stack-chip">GitLab CI/CD</span>
+                        <span class="stack-chip">Fastlane</span>
+                        <span class="stack-chip">Firebase App Distribution</span>
+                    </div>
+                </div>-->
+                <!-- <div>
+                    <p class="stack-group-title">Analitica y servicios cloud</p>
+                    <div class="stack-chips">
+                        <span class="stack-chip">Firebase</span>
+                        <span class="stack-chip">Crashlytics</span>
+                        <span class="stack-chip">Analytics</span>
+                        <span class="stack-chip">Remote Config</span>
+                        <span class="stack-chip">Authentication</span>
+                    </div>
+                </div>-->
             </div>
         </section>
 
-        <!-- PROYECTOS -->
-        <section class="section" id="projects">
-            <h2>Proyectos</h2>
+        <hr class="divider">
 
-            <div class="projects">
+        <section id="proyectos">
+            <p class="section-label">Portfolio</p>
+            <h2 class="section-title">Proyectos</h2>
 
-                <div class="project-card">
-                    <img src="assets/images/app1.png" alt="TaskFlow screenshot" class="project-image">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="C:\Users/azahp/azahara-dev.github.io/assets/images/app2.jpg"
+                        alt="Placeholder app de videojuegos" />
+                </div>
+                <div class="project-body">
+                    <div class="project-header">
+                        <span class="project-name">[Nombre de la app]</span>
+                        <ul class="project-badges">
+                            <li><a class="project-badge badge-github" href="#stack">GitHub</a></li>
+                            <li><a class="project-badge badge-demo" href="#proyectos">Demo</a></li>
+                            <li><a class="project-badge badge-playstore" href="#trayectoria">PlayStore</a></li>
+                        </ul>
+                    </div>
+                    <p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in erat
+                        bibendum, imperdiet ipsum sed, iaculis tellus. Sed bibendum, sem nec pulvinar placerat, ex augue
+                        ultricies est, nec interdum augue libero et ipsum. Etiam a tincidunt sem. Praesent neque justo,
+                        blandit sed congue ac, tempus vel lectus. Pellentesque habitant morbi tristique senectus et
+                        netus et malesuada fames ac turpis egestas. Integer convallis eu risus sit amet vulputate.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Kotlin</span>
+                        <span class="tech-tag">Jetpack Compose</span>
+                        <span class="tech-tag">Retrofit</span>
+                        <span class="tech-tag">Room</span>
+                        <span class="tech-tag">ViewModel</span>
+                        <span class="tech-tag">RAWG API</span>
+                    </div>
+                </div>
+            </div>
 
-                    <div class="project-info">
-                        <h3>App 1</h3>
+            <div class="project-card">
+                <div class="project-img-placeholder">
+                    <img src="C:\Users/azahp/azahara-dev.github.io/assets/images/proyecto-en-construccion.png"
+                        alt="Placeholder app de videojuegos" />
+                    <div class="project-img-overlay">
+                        <span>imagen de la app próximamente</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <div class="project-header">
+                        <span class="project-name">[Nombre de la app]</span>
+                        <ul class="project-badges">
+                            <li><span class="project-badge badge-soon" href="#stack">Próximamente</span></li>
+                         </ul>
+                    </div>
+                    <p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in erat
+                        bibendum, imperdiet ipsum sed, iaculis tellus. Sed bibendum, sem nec pulvinar placerat, ex augue
+                        ultricies est, nec interdum augue libero et ipsum. Etiam a tincidunt sem. Praesent neque justo,
+                        blandit sed congue ac, tempus vel lectus. Pellentesque habitant morbi tristique senectus et
+                        netus et malesuada fames ac turpis egestas. Integer convallis eu risus sit amet vulputate.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Kotlin</span>
+                        <span class="tech-tag">Jetpack Compose</span>
+                        <span class="tech-tag">Retrofit</span>
+                        <span class="tech-tag">Room</span>
+                        <span class="tech-tag">ViewModel</span>
+                        <span class="tech-tag">RAWG API</span>
+                    </div>
+                </div>
+            </div>
 
-                        <p>
-                            Aplicación Android con arquitectura MVVM y persistencia local.
-                        </p>
+        </section>
 
-                        <p class="stack">
-                            Kotlin · MVVM · Room · Hilt
-                        </p>
+        <hr class="divider">
 
-                        <div class="links">
-                            <a href="#">GitHub</a>
-                            <a href="#">Demo</a>
-                            <a href="#">PlayStore</a>
+        <section id="sobre-mi">
+            <p class="section-label">¿Quién está detrás de esto?</p>
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Desarrolladora con base en Java y varios años de experiencia en entornos empresariales. En 2026
+                        decidí orientar mi carrera hacia Android porque quiero construir cosas que lleguen a usuarios
+                        reales — no herramientas que se quedan en un servidor interno.</p>
+                    <p>Cuando no estoy programando, probablemente estoy jugando a algún videojuego, viendo anime,
+                        planeando mi próximo viaje o practicando japonés.</p>
+                </div>
+                <div class="about-cards">
+                    <div class="about-card">
+                        <span class="about-card-icon">🌸</span>
+                        <div>
+                            <p class="about-card-label">Idioma extra</p>
+                            <p class="about-card-title">Japonés N5</p>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <span class="about-card-icon">📍</span>
+                        <div>
+                            <p class="about-card-label">Ubicación</p>
+                            <p class="about-card-title">Madrid, España</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="project-card">
-                    <img src="assets/images/app1.png" alt="TaskFlow screenshot" class="project-image">
-
-                    <div class="project-info">
-                        <h3>App 2</h3>
-
-                        <p>
-                            App que consume API REST y muestra datos en Jetpack Compose.
-                        </p>
-
-                        <p class="stack">
-                            Kotlin · Retrofit · Compose
-                        </p>
-
-                        <p class="impact">
-                            Enfoque en separación de capas, gestión de estado reactivo y escalabilidad del código.
-                        </p>
-
-                        <div class="links">
-                            <a href="#">GitHub</a>
-                            <a href="#">Demo</a>
-                            <a href="#">PlayStore</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </section>
 
-        <!-- CONTACTO -->
-        <section class="section">
-            <h2>Contacto</h2>
+        <hr class="divider">
 
-            <p>Si quieres contactarme, puedes escribirme directamente:</p>
-
-            <a href="mailto:tuemail@gmail.com" class="btn">
-                Enviar email
-            </a>
+        <section id="contacto" class="contact-section">
+            <p class="section-label">Contacto</p>
+            <h2 class="section-title">Hablemos</h2>
+            <p class="contact-desc">Estoy buscando mi primera oportunidad como Android developer. Si tienes algo interesante, encuéntrame en
+                LinkedIn o echa un vistazo a mi código en GitHub.</p>
+            <div class="contact-row">
+                <a href="https://linkedin.com/in/[tu-perfil]" class="btn btn-primary" target="_blank">LinkedIn ↗</a>
+                <a href="https://github.com/[tu-usuario]" class="btn btn-ghost" target="_blank">GitHub ↗</a>
+            </div>
         </section>
 
     </main>
 
     <!-- FOOTER -->
     <footer>
-        © 2026 Tu Nombre · Android Developer
+        <p>© 2026 Azahara · Android Developer · Madrid · Hecho con HTML, CSS y ganas 🌱</p>
     </footer>
 
 </body>
